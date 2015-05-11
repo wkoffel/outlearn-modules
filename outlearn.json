@@ -1,0 +1,28 @@
+{
+  "olpVersion" : "0.1",
+
+  "paths" : [
+    {
+      "name" : "path-template",
+      "title" : "Path Template",
+      "description" : "Template for getting started quickly in path building",
+      "privacy" : "public",
+      "pages" : [
+        {"title" : "Welcome", "content" : "./context-pages/welcome.md"},
+        {"module" : "before-we-begin"},
+        {"module" : "outlearn://user/module"},
+        {"module" : "outlearn://user/module"},
+        {"title" : "Live long and prosper", "content" : "./context-pages/live-long.md"}
+      ]
+    }
+  ],
+
+  "modules" : [
+    {
+      "olm" : "./modules/before-we-begin.md"
+    }
+  ],
+
+  "assets" : [
+  ]
+}
