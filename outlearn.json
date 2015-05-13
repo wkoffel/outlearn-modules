@@ -12,7 +12,7 @@
         {"module" : "before-we-begin"},
         {"module" : "outlearn://user/module"},
         {"module" : "outlearn://user/module"},
-        {"title" : "Live long and prosper", "content" : "./context-pages/live-long.md"}
+        {"title" : "Live long and prosper", "content" : "./context-pages/goodbye.md"}
       ]
     }
   ],
