@@ -1,5 +1,5 @@
 <!--
-name: before-we-begin
+name: template-module
 version : "0.1"
 title : "Before We Begin"
 description: "Set expectations and assess initial confidence."

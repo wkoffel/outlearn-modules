@@ -9,10 +9,10 @@
       "privacy" : "public",
       "pages" : [
         {"title" : "Welcome", "content" : "./context-pages/welcome.md"},
-        {"module" : "before-we-begin"},
+        {"module" : "template-module"},
         {"module" : "outlearn://user/module"},
         {"module" : "outlearn://user/module"},
-        {"title" : "Live long and prosper", "content" : "./context-pages/goodbye.md"}
+        {"title" : "See you later!", "content" : "./context-pages/goodbye.md"}
       ]
     }
   ],
