@@ -1,18 +1,17 @@
 {
-  "olpVersion" : "0.1",
+  "olpVersion" : "0.5",
 
   "paths" : [
     {
-      "name" : "path-template",
-      "title" : "Path Template",
-      "description" : "Template for getting started quickly in path building",
+      "name" : "my-outlearn-path",
+      "title" : "A Sample Outlearn Path",
+      "description" : "",
       "privacy" : "public",
       "pages" : [
-        {"title" : "Welcome", "content" : "./context-pages/welcome.md"},
-        {"module" : "template-module"},
-        {"module" : "outlearn://user/module"},
-        {"module" : "outlearn://user/module"},
-        {"title" : "See you later!", "content" : "./context-pages/goodbye.md"}
+        {"title" : "Welcome", "content" : "./pages/welcome.md"},
+        {"module" : "my-outlearn-module"},
+        {"module" : "outlearn://outlearn/outlearn-markdown-specification"},
+        {"title" : "See you later!", "content" : "./pages/goodbye.md"}
       ]
     }
   ],
