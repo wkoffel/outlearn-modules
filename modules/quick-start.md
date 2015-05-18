@@ -8,9 +8,9 @@ license : "CC Attribution-ShareAlike 4.0"
 
 <!-- @section -->
 
-# Fork the repository
+## Fork the repository
 
-We know you are busy and would rather focus on writing awesome content than setting up directory structures. Never worry, you'll be all set with our path template Github repository. You're first step is to fork this repo. One good strategy to organize content is to keep all your Outlearn content in one repository. The name of the repo does not matter, it could be for example "yourname-outlearn."  If you need a refresher on forking, check out Github's guide on [Forking Projects](https://guides.github.com/activities/forking/). You can also check out other [Github guides](https://guides.github.com) if you want to brush up on other Github skills.
+We know you are busy and would rather focus on writing awesome content than setting up directory structures. Never worry, you'll be all set with our path template Github repository. Your first step is to fork this repo. The easiest way to organize content is to keep all your Outlearn content in one repository. The name of the repo does not matter, it could be for example "yourname-outlearn."  If you need a refresher on forking, check out Github's guide on [Forking Projects](https://guides.github.com/activities/forking/). You can also check out other [Github guides](https://guides.github.com) if you want to brush up on other Github skills.
 
 <!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Fork the path-template repository. \"}"-->
 
@@ -45,15 +45,23 @@ Your relevant part of your file should look like this:
 
 <!-- @section -->
 
-# Add your content
+## Add your content
 
-## Outlearn Uses Markdown
+### Pages and Modules
 
 Now that you've laid out what your path is all about, it's time to get some content in it. Paths are made up of two basic components: pages and modules. The modules are the building blocks of a path. You might write them all yourself or you can include modules written by others. Each module should be self-contained so that it can be easily reused and reordered for other paths. To balance out the independence of the modules, you can put in pages that are the glue that holds the blocks together. They let you add in more of your own personality. Pages are specific to a path so you can talk about why you chose the modules you did, how they fit together, what parts are super important, etc.
 
+The pages are written in markdown and you just provide the location of the markdown file in the outlearn.json manifest.
+
+### Outlearn Uses Markdown
+
 We wanted to have an authoring experience that integrates seamlessly with Github and is easy as well as expressive. That's why we chose Markdown as the format for Outlearn. You can read the [official Markdown Syntax](http://daringfireball.net/projects/markdown/syntax) for more details. Outlearn also supports all the extensions of [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/). If you already have your content in Markdown, importing it to Outlearn is a breeze.
 
-## Telling your path where your content should go
+The easiest way to create a module is to use a single markdown file. In that case you need some metadata at the top of the markdown file. The simplest possible example is:
+
+TODO: Add new syntax
+
+### Organize Your Path
 
 Once you have your Markdown ready for a module, this is how you make it part of your path:
 
@@ -90,7 +98,7 @@ Your `outlearn.json` will now contain the lines:
 
 <!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Add your first module into the path.\"}"-->
 
-## Adding images and videos
+### Including images and videos
 
 Outlearn supports the regular markdown syntax for including images. However, you will get nicer rendering and better progress tracking using our own annotation. The Outlearn image annotation looks like this:
 
@@ -111,3 +119,38 @@ Besides `jpeg`, you can also use `png` images. You can add videos with the follo
 <!-- @asset, type: 'video/mp4', title: 'Watch the Video', location: 'http://www.example.com/training/video1.mp4' -->
 
 ```
+
+<!-- @section -->
+
+## Enhance your content
+
+### Adding sections
+
+The simplest way to enhance your content is to divide it into sections. Each module can have one or more sections that also show up on the side of the content and serve as a handy table of contents. They can also be checked off as completed and help learners and path creators see what progress has taken place.
+
+You create a section by adding the following annotation:
+
+```markdown
+<!-- @section, "title": "Getting started" -->
+```
+
+Alternatively, you can leave out the "title" attribute and the platform will take the first heading after the section tag and make it the title. It does not matter if the heading is h1, h2, etc. So you could replace the above code with:
+
+```markdown
+<!-- @section -->
+
+## Getting started
+```
+
+This can be especially helpful when you just quickly want to add sections to an existing markdown file and also makes the file render more nicely on Github.
+
+
+### Add tasks, links
+
+Nothing kills learner motivation like hours of videos or reading without a way to try it out yourself. The easiest way to create meaningful interactions with the learners is to add tasks, some of which may contain deliverables. A task can be as simple as "Run make in your project directory" or more involved such as "Download this library and compile it in your system." With deliverables, you get even more flexibility. For example, you can ask learners to "Fork the project repo on Github, add in your function and send a pull request to the original repo. Paste the url to the pull request below." Path authors and organization admins can see which tasks have been done and what learners have submitted. They can then organize further activities such as code reviews.
+
+TODO: ADD IN SYNTAX
+
+### Add cover images
+
+Your path and each module in the path can have a cover image that's a visual representation of the path or module.
