@@ -1,8 +1,8 @@
 <!--
 {
-"name": "quick-start",
+"name": "readme",
 "version" : "0.1",
-"title" : "Path Building Quick Start",
+"title" : "Outlearn Hello World",
 "description" : "Get Started with Your Path in 5 Minutes",
 "homepage" : "https://github.com/outlearn-content/outlearn-modules",
 "freshnessDate" : 2015-05-18,
@@ -12,15 +12,17 @@
 
 <!-- @section -->
 
-## Viewing This on GitHub?
+## How Fast Can You Publish?
+
+### Viewing This on GitHub?
 
 If you are viewing this on GitHub and want to get the full experience, check out the enhanced version of [Path Building Quick Start](https://demo.outlearn.com/learn/outlearn/my-outlearn-path) on Outlearn.com.
 
 <!-- @section -->
 
-## Fork the Repo
+### Fork the Repo
 
-We know you are busy and would rather focus on writing awesome content than setting up directory structures and choosing naming conventions. Never worry, you'll be all set with our [outlearn-modules](https://github.com/outlearn-content/outlearn-modules)" GitHub repository. Your first step is to fork this repo. You can keep all your Outlearn content in your own fork of the repo. If you need a refresher on forking, check out GitHub's guide on [Forking Projects](https://guides.github.com/activities/forking/). They also have other handy [guides](https://guides.github.com).
+We know you are busy and would rather focus on writing awesome content than setting up directory structures and choosing naming conventions. Never worry, you'll be all set with our [outlearn-modules](https://github.com/outlearn-content/outlearn-modules) GitHub repository. Your first step is to fork this repo. If you need a refresher on forking, check out GitHub's guide on [Forking Projects](https://guides.github.com/activities/forking/). They also have other handy [guides](https://guides.github.com).
 
 <!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Fork the outlearn-modules repository. \"}"-->
 
@@ -44,7 +46,7 @@ Your relevant part of your file should look like this:
     "privacy" : "public",
     "pages" : [
       {"page" : "./pages/welcome.md"},
-      {"module" : "quick-start"},
+      {"module" : "readme"},
       {"module" : "my-outlearn-module"},
       {"page" : "./pages/specs.md"},
       {"module" : "outlearn/outlearn-markdown-specification"},
@@ -64,7 +66,9 @@ The best way for you to test out path creation on Outlearn is to see your change
 
 ![GitHub sign-in popup](https://raw.githubusercontent.com/outlearn-content/outlearn-modules/master/images/authorize.png)
 
-Once you are signed up, choose "[Import Content](https://demo.outlearn.com/import/github)" from the menu in the top right corner under the user icon.
+<!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Create an Outlearn account\"}"-->
+
+Once you are signed up, choose [Import Content](https://demo.outlearn.com/import/github) from the menu in the top right corner under the user icon.
 
 ![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-modules/master/images/import.png)
 
@@ -76,58 +80,63 @@ You should now see "Outlearn Modules" under your "GitHub Integrations". Click on
 
 ![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-modules/master/images/import-history.png)
 
+<!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Publish your first path!\"}"-->
+
 <!-- @section -->
 
 ## Add Your Content
 
 ### Pages and Modules
 
-Now that you've laid out what your path is all about, it's time to get some content in it. Paths are made up of two basic components: pages and modules. The modules are the building blocks of a path. You might write them all yourself or you can include modules written by others. Each module should be self-contained so that it can be easily reused and reordered for other paths. To balance out the independence of the modules, you can put in pages that are the glue that holds the blocks together. They let you add in more of your own personality. Pages are specific to a path so you can talk about why you chose the modules you did, how they fit together, what parts are super important, etc.
+Now that you've laid out what your path is all about, it's time to get some content in it. Paths are made up of two basic components: pages and modules. The modules are the building blocks of a path. You might write them all yourself or you can include modules written by others. Each module should be self-contained so that it can be easily reused and reordered for other paths. To balance out the independence of the modules, you can put in pages. Pages are the glue that holds the modules together. They let you add in more of your own personality. Pages are specific to a path so you can talk about why you chose the modules you did, how they fit together, what parts are super important, etc.
 
-The pages are written in markdown and you just provide the location of the markdown file in the outlearn.json manifest.
 
 ### Outlearn Uses Markdown
 
-We wanted to have an authoring experience that integrates seamlessly with GitHub and is easy as well as expressive. That's why we chose Markdown as the format for Outlearn. You can read the [official Markdown Syntax](http://daringfireball.net/projects/markdown/syntax) for more details. Outlearn also supports all the extensions of [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/). If you already have your content in Markdown, importing it to Outlearn is a breeze.
+We wanted to have an authoring experience that integrates seamlessly with GitHub and is easy as well as expressive. We think Markdown hits a great balance between those goals. You can read the [official Markdown Syntax](http://daringfireball.net/projects/markdown/syntax) for more details. Outlearn also supports all the extensions of [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/). If you already have your content in Markdown, importing it to Outlearn is a breeze.
 
-The easiest way to create a module is to use a single markdown file. In that case you need some metadata at the top of the markdown file. The simplest possible example is:
+### Hello World
 
-TODO: Add new syntax
+By now you are probably itching to get to publish something you actually wrote. Go ahead and edit the file `welcome.md` in the `pages` directory. You can replace everything there with your very own "Hello World" message, or something else that inspires you! The pages are written in markdown so feel free to try out some formatting as well.
+
+Now go back to the [Import Content](https://demo.outlearn.com/import/github) section on Outlearn, click on the nickname and then click "Re-Import". If you still have your path open, refresh your browser and you can see your edits. Or navigate to it same way as above. Houston, we have a lift-off! This is where the official 5-minute path publishing count stops. Hopefully you've seen enough of the power of Outlearn paths to keep on going to put some real content into your path.
+
 
 ### Organize Your Path
 
-Once you have your Markdown ready for a module, this is how you make it part of your path:
+The meat of the path is in the modules. Once you have written some new markdown or repurposed older content, this is how you make it part of your path:
 
-* Open the `template-module.md` file in the `modules` directory
-* Update the metadata at the beginning of the file, including a new name for the module, e.g. `my-module-name`.
+* Open the `my-outlearn-module.md` file in the `modules` directory
+* Update the metadata at the beginning of the file, including a new name for the module, e.g. `awesome-first-module`.
 * Add your markdown content to the file
-* Save your file with a new name, we recommend using `my-module-name.md`
-* Edit `outlearn.json` and replace `{"module" : "template-module"}` with `{"module" : "my-module-name"}`. This tells the path where the module belongs.  
-* Declare the module in the `modules` section in `outlearn.json` by replacing `"olm" : "./modules/template-module.md"` with `"olm" : "./modules/my-module-name.md"`. This tells Outlearn where the source file for the module is.
+* Save your file with a new name, we recommend using the module name also as file name, e.g. `awesome-first-module.md`
+* Edit `outlearn.json` and replace `{"module" : "my-outlearn-module"}` with `{"module" : "awesome-first-module"}`. This tells the path where the module belongs.  
+* Declare the module in the `modules` section in `outlearn.json` by replacing `"olm" : "./modules/my-outlearn-module.md"` with `"olm" : "./modules/awesome-first-module.md"`. This tells Outlearn where the source file for the module is.
+* You can also remove the `README.md` module from the path.
 
-Your `outlearn.json` will now contain the lines:
+The body of your `outlearn.json` will now look like this:
 
 ```json
 "paths" : [
   {
-  "name" : "path-template",
-  "title" : "Path Template",
-  "description" : "Template for getting started quickly in path building",
-  "privacy" : "public",
-  "pages" : [
-      {"title" : "Welcome", "content" : "./context-pages/welcome.md"},
-      {"module" : "my-module-name"},
-      {"module" : "outlearn://user/module"},
-      {"module" : "outlearn://user/module"},
-      {"title" : "See you later!", "content" : "./context-pages/goodbye.md"}
-      ]
-    }
+    "name" : "your-new-path-name",
+    "title" : "The Name You Just Chose",
+    "description" : "More explanation about your the glorious purpose of your path",
+    "privacy" : "public",
+    "pages" : [
+      {"page" : "./pages/welcome.md"},
+      {"module" : "awesome-first-module"},
+      {"page" : "./pages/specs.md"},
+      {"module" : "outlearn/outlearn-markdown-specification"},
+      {"page" : "./pages/closing.md"}
+    ]
+  }
 ],
 
 "modules" : [
-    {
-      "olm" : "./modules/my-module-name.md"
-    }
+  {
+    "olm" : "./modules/awesome-first-module.md"
+  }
 ],
 ```
 
@@ -143,7 +152,7 @@ Outlearn supports the regular markdown syntax for including images. However, you
 
 ```
 
-Besides `jpeg`, you can also use `png` images. You can add videos with the following annotations:
+You can add videos with the following annotations:
 
 ```markdown
 
@@ -169,7 +178,7 @@ You create a section by adding the following annotation:
 < !-- @section, "title": "Getting started" -->
 ```
 
-Alternatively, you can leave out the "title" attribute and the platform will take the first heading after the section tag and make it the title. It does not matter if the heading is h1, h2, etc. So you could replace the above code with:
+Alternatively, you can leave out the "title" attribute and the platform will take the first heading after the section tag and make it the title. So you could replace the above code with:
 
 ```markdown
 < !-- @section -->
@@ -182,7 +191,7 @@ This can be especially helpful when you just quickly want to add sections to an 
 
 ### Add Tasks, Links
 
-Nothing kills learner motivation like hours of videos or reading without a way to try it out yourself. The easiest way to create meaningful interactions with the learners is to add tasks, some of which may contain deliverables. A task can be as simple as "Run make in your project directory" or more involved such as "Download this library and compile it in your system." With deliverables, you get even more flexibility. For example, you can ask learners to "Fork the project repo on GitHub, add in your function and send a pull request to the original repo. Paste the url to the pull request below." Path authors and organization admins can see which tasks have been done and what learners have submitted. They can then organize further activities such as code reviews.
+Nothing kills learner motivation like hours of watching videos and reading without a way to try it out yourself. Great teachers push the learners to put their learning to practice. The easiest way to create meaningful interactions with the learners on Outlearn is to add tasks, some of which may contain deliverables. A task can be as simple as "Run make in your project directory" or more involved such as "Download this library and compile it in your system." With deliverables, you get even more flexibility. For example, you can ask learners to "Fork the project repo on GitHub, add in your function and send a pull request to the original repo. Paste the url to the pull request below." Path authors and organization admins can see which tasks have been done and what learners have submitted. They can then organize further activities such as code reviews.
 
 TODO: ADD IN SYNTAX
 
