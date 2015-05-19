@@ -109,7 +109,7 @@ Outlearn supports the regular markdown syntax for including images. However, you
 
 ```markdown
 
-<!-- @section, type: 'image/jpeg', title: 'Architecture Diagram', location: 'http://ad009cdnb.archdaily.net/wp-content/uploads/2011/05/1304980266-ad30-circulation-diagram.jpg' -->
+< !-- @section, type: 'image/jpeg', title: 'Architecture Diagram', location: 'http://ad009cdnb.archdaily.net/wp-content/uploads/2011/05/1304980266-ad30-circulation-diagram.jpg' -->
 
 ```
 
@@ -117,11 +117,11 @@ Besides `jpeg`, you can also use `png` images. You can add videos with the follo
 
 ```markdown
 
-<!-- @asset, type: 'video/vimeo', title: 'Watch the Video', location: 'https://vimeo.com/61887298' -->
+< !-- @asset, type: 'video/vimeo', title: 'Watch the Video', location: 'https://vimeo.com/61887298' -->
 
-<!-- @asset, type: 'video/youtube', title: 'Watch the Video', location: 'https://www.youtube.com/watch?v=CmjeCchGRQo' -->
+< !-- @asset, type: 'video/youtube', title: 'Watch the Video', location: 'https://www.youtube.com/watch?v=CmjeCchGRQo' -->
 
-<!-- @asset, type: 'video/mp4', title: 'Watch the Video', location: 'http://www.example.com/training/video1.mp4' -->
+< !-- @asset, type: 'video/mp4', title: 'Watch the Video', location: 'http://www.example.com/training/video1.mp4' -->
 
 ```
 
@@ -136,13 +136,13 @@ The simplest way to enhance your content is to divide it into sections. Each mod
 You create a section by adding the following annotation:
 
 ```markdown
-<!-- @section, "title": "Getting started" -->
+< !-- @section, "title": "Getting started" -->
 ```
 
 Alternatively, you can leave out the "title" attribute and the platform will take the first heading after the section tag and make it the title. It does not matter if the heading is h1, h2, etc. So you could replace the above code with:
 
 ```markdown
-<!-- @section -->
+< !-- @section -->
 
 ## Getting started
 ```
