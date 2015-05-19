@@ -26,7 +26,7 @@ We know you are busy and would rather focus on writing awesome content than sett
 
 <!-- @asset, "contentType" : "outlearn/prototype-feature", "text" : "{ \"task\": \"Fork the outlearn-modules repository. \"}"-->
 
-Once you have forked the repository, open up `outlearn.json` found at the root of the repo. Update the following path metadata fields in the file:
+Once you have forked the repository, open up `outlearn.json` found at the root of the repo. Now update the following path metadata fields in the file:
 
 
 | Field | Description |
@@ -35,7 +35,7 @@ Once you have forked the repository, open up `outlearn.json` found at the root o
 | title | shown at the top of path cards |
 | description | shown on the path card as additional information |
 
-Your relevant part of your file should look like this:
+The relevant part of your file should look now like this:
 
 ```json
 "paths" : [
@@ -62,7 +62,7 @@ Your relevant part of your file should look like this:
 
 ## Create an Outlearn Account and Publish Your Path
 
-The best way for you to test out path creation on Outlearn is to see your changes in real time on outlearn. First, [create an Outlearn account using your GitHub account](https://demo.outlearn.com/auth/join). Click the button "Join With GitHub". You need to link Outlearn with GitHub so you can publish your content. GitHub will asks for your permission using a popup like the one below.
+The best way for you to test out path creation on Outlearn is to see your changes in real time on outlearn. First, [create an Outlearn account using your GitHub account](https://demo.outlearn.com/auth/join). Click the button "Join With GitHub". You will need to link Outlearn with GitHub so you can publish your content. GitHub will ask for your permission using a popup like the one below.
 
 ![GitHub sign-in popup](https://raw.githubusercontent.com/outlearn-content/outlearn-modules/master/images/authorize.png)
 
@@ -72,11 +72,11 @@ Once you are signed up, choose [Import Content](https://demo.outlearn.com/import
 
 ![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-modules/master/images/import.png)
 
-Click "Add GitHub Integration" and choose "outlearn-modules" as the repository. Write a Nickname such as "Outlearn Modules" and click "Import Repository."
+Click "Add GitHub Integration" and choose "outlearn-modules" as the repository. Write a Nickname such as "Outlearn Modules" and click the "Import Repository" button.
 
 ![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-modules/master/images/choose-repo.png)
 
-You should now see "Outlearn Modules" under your "GitHub Integrations". Click on the it and then click on the green check under "Import History." You will see the imported paths and modules. Click on the path and you will see your first very own Outlearn path. Congratulations!
+You should now see "Outlearn Modules" under your "GitHub Integrations". Click on "Outlearn Modules" and then click on the green check under "Import History." You will see the imported paths and modules. Now click on the path and you will see your first Outlearn path, in all its glory. Congratulations!
 
 ![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-modules/master/images/import-history.png)
 
@@ -88,7 +88,11 @@ You should now see "Outlearn Modules" under your "GitHub Integrations". Click on
 
 ### Pages and Modules
 
-Now that you've laid out what your path is all about, it's time to get some content in it. Paths are made up of two basic components: pages and modules. The modules are the building blocks of a path. You might write them all yourself or you can include modules written by others. Each module should be self-contained so that it can be easily reused and reordered for other paths. To balance out the independence of the modules, you can put in pages. Pages are the glue that holds the modules together. They let you add in more of your own personality. Pages are specific to a path so you can talk about why you chose the modules you did, how they fit together, what parts are super important, etc.
+Now that you've laid out what your path is all about, it's time to get some content in it. Paths are made up of two basic components: pages and modules. The modules are the primary building blocks of a path and contain the core learning content. You might write them all yourself or you can include modules written by others. 
+
+Each module should ideally be self-contained so that it can be easily reused and reordered for other paths. As you create your module, we recommend that you avoid referencing other modules within the module content. If you do so, you run the risk of confusing learners who might find themselves in a learning path that does not includes the referenced module.
+
+To balance out the independence of the modules, you can include pages in your path. Pages serve as the glue that holds the modules together. They let you add in more of your own personality as a curator of modules created by others. Pages are specific to a path so you can use them to talk about why you chose the modules you did, how they fit together, what parts are super important, etc. Pages are a very powerful tool for establishing context for your learners. Use pages whenever a little expert context and commentary might be helpful.
 
 
 ### Outlearn Uses Markdown
@@ -194,19 +198,23 @@ This can be especially helpful when you just quickly want to add sections to an 
 
 ### Add Tasks, Links
 
-Nothing kills learner motivation like hours of watching videos and reading without a way to try it out yourself. Great teachers push the learners to put their learning to practice. The easiest way to create meaningful interactions with the learners on Outlearn is to add tasks, some of which may contain deliverables. A task can be as simple as "Run make in your project directory" or more involved such as "Download this library and compile it in your system." With deliverables, you get even more flexibility. For example, you can ask learners to "Fork the project repo on GitHub, add in your function and send a pull request to the original repo. Paste the url to the pull request below." Path authors and organization admins can see which tasks have been done and what learners have submitted. They can then organize further activities such as code reviews.
+Nothing kills learner motivation like hours of watching videos and reading without a way to try it out yourself. Great teachers push the learners to put their learning to practice. The easiest way to create meaningful interactions with the learners on Outlearn is to add tasks, some of which may contain deliverables. A task can be as simple as "Run make in your project directory" or more involved such as "Download this library and compile it in your system." 
+
+You can optionally define deliverables that are to be submitted as part of task completion. For example, you can ask learners to "Fork the project repo on GitHub, add the following functionality, send a pull request to the original repo, then paste the the pull request URL below." Path authors and organization admins can see which tasks have been done and the contents of the deliverables that learners have submitted. They can then organize further activities such as code reviews.
+
+The maximum amount of text that can be submitted as a task deliverable is [].
 
 To add a task:
 ```markdown
 < !-- @todo, "task" : "Run the above code example on your own machine."-->
 ```
 
-If you also want to add a deliverable:
+If you also want to add a task deliverable:
 ```markdown
 < !-- @todo, "deliverable" : true, "task" : "Fork the repository above, fix the broken test, and submit a URL for your pull-request."-->
 ```
 
-For an external link that gets unfurled inside the platform:
+[Add a richer definition of links and how they can be used here. This undersells the power of what you can do with it. We should also explain the iframe detection and resulting behaviors.] For an external link that gets unfurled inside the platform:
 ```markdown
 < !-- @link, "url" : "https://nodejs.org/", "task": "Install NodeJS" -->
 111
