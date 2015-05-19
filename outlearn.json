@@ -4,14 +4,15 @@
   "paths" : [
     {
       "name" : "my-outlearn-path",
-      "title" : "A Sample Outlearn Path",
-      "description" : "",
+      "title" : "Get Started with Your Path in 5 Minutes",
+      "description" : "Get your hands dirty and create your first path",
       "privacy" : "public",
       "pages" : [
-        {"title" : "Welcome", "content" : "./pages/welcome.md"},
+        {"page" : "./pages/welcome.md"},
+        {"module" : "quick-start"},
         {"module" : "my-outlearn-module"},
-        {"module" : "outlearn://outlearn/outlearn-markdown-specification"},
-        {"title" : "See you later!", "content" : "./pages/goodbye.md"}
+        {"module" : "outlearn/outlearn-markdown-specification"},
+        {"page" : "./pages/goodbye.md"}
       ]
     }
   ],
@@ -19,6 +20,9 @@
   "modules" : [
     {
       "olm" : "./README.md"
+    },
+    {
+      "olm" : "./modules/my-outlearn-module.md"
     }
   ],
 
