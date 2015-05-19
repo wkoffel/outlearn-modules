@@ -18,7 +18,6 @@
 
 If you are viewing this on GitHub and want to get the full experience, check out the enhanced version of [Path Building Quick Start](https://demo.outlearn.com/learn/outlearn/my-outlearn-path) on Outlearn.com.
 
-<!-- @section -->
 
 ### Fork the Repo
 
