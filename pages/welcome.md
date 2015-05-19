@@ -1,12 +1,31 @@
+# Welcome Amazing Teacher
 
-Hi team.  Welcome to Diving into Riak!
+That's what you are, after all --- a teacher.  Don't worry, it's a good thing!  The "noblest profession", as the saying goes.
 
-SuperMegaCorp is getting into Riak big time for our database needs and I want to make sure the whole team is on the same page about it. I've worked with John and our friends at Outlearn to put together this path that will cover all the fundamentals.
+These days, developers are in as much need of great teachers as anyone.  Too few in our growing ecosystem possess the unique talents to make these tough concepts seem approachable, and to cut through the cruft and teach us stuff that's immediately useful.
 
-The core of the path comes from the official docs but but we also also spiced things up with some other third party resources. Inside the modules there are many small and some larger tasks. The idea is that you can get your hands dirty and really apply what you learn. Do try them out and when you get stuck, ask one of the other people going through the path. If you can't figure it out together, feel free to reach out to me.
+You have the necessary knowledge, experience, and communication skill, plus a desire to share what you know with developers.  And Outlearn has a great publishing platform for you, whether you are:
 
-I would love to hear any feedback about the path so we can keep on making it better. And since the content is all on Github, if you want to improve something directly, go ahead and submit a pull request!
+* an individual developer blogger with a passion for great technical writing and a desire to build your audience
+* an open source project that needs to get the word out about how to take advantage of your software
+* a company supporting great developer services, tools, or APIs that deserves an equally great training experience
+* a hacker with awesome pro tips to share about your favorite platforms
 
-Good luck!
+In this path, you'll learn everything you need to know to simply and efficiently publish your material to Outlearn, publicly or for your private audience, and take advantage of the evolving learning features Outlearn offers to enrich your content.
 
-Bob Loblaw - VP Eng, SuperMegaCorp
+### Hello World
+
+We'll start with a simple _Hello World_ learning module example, because...you know..._hello world_!
+
+### Outlearn Packages
+
+Outlearn Packages provide a flexible way to author full paths as well as complex modules.  We'll explore in plain terms how they work.
+
+### Specs, beautiful full specs
+
+Finally, provided in this path are the full specification docs for our authoring formats, for those who want to dig in on more advanced features.
+
+Let's get started!
+
+Will Koffel<br/>
+CTO, Outlearn

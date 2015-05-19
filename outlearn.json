@@ -11,8 +11,9 @@
         {"page" : "./pages/welcome.md"},
         {"module" : "quick-start"},
         {"module" : "my-outlearn-module"},
+        {"page" : "./pages/specs.md"},
         {"module" : "outlearn/outlearn-markdown-specification"},
-        {"page" : "./pages/goodbye.md"}
+        {"page" : "./pages/closing.md"}
       ]
     }
   ],
