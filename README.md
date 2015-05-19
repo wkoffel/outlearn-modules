@@ -5,6 +5,7 @@
 "title" : "Outlearn Hello World",
 "description" : "Get Started with Your Path in 5 Minutes",
 "homepage" : "https://github.com/outlearn-content/outlearn-modules",
+"coverImage" : "http://www.publicdomainpictures.net/pictures/70000/velka/abstract-party-lights.jpg",
 "freshnessDate" : 2015-05-18,
 "license" : "CC BY 4.0"
 }
@@ -195,8 +196,24 @@ This can be especially helpful when you just quickly want to add sections to an 
 
 Nothing kills learner motivation like hours of watching videos and reading without a way to try it out yourself. Great teachers push the learners to put their learning to practice. The easiest way to create meaningful interactions with the learners on Outlearn is to add tasks, some of which may contain deliverables. A task can be as simple as "Run make in your project directory" or more involved such as "Download this library and compile it in your system." With deliverables, you get even more flexibility. For example, you can ask learners to "Fork the project repo on GitHub, add in your function and send a pull request to the original repo. Paste the url to the pull request below." Path authors and organization admins can see which tasks have been done and what learners have submitted. They can then organize further activities such as code reviews.
 
-TODO: ADD IN SYNTAX
+To add a task:
+```markdown
+< !-- @todo, "task" : "Run the above code example on your own machine."-->
+```
+
+If you also want to add a deliverable:
+```markdown
+< !-- @todo, "deliverable" : true, "task" : "Fork the repository above, fix the broken test, and submit a URL for your pull-request."-->
+```
+
+For an external link that gets unfurled inside the platform:
+```markdown
+< !-- @link, "url" : "https://nodejs.org/", "task": "Install NodeJS" -->
+111
 
 ### Add Cover Images
 
-Your path and each module in the path can have a cover image that's a visual representation of the path or module.
+Each module in the path can have a cover image that's a visual representation of the path or module. You add them in the header with a line:
+```markdown
+"coverImage" : "http://www.publicdomainpictures.net/pictures/70000/velka/abstract-party-lights.jpg",
+```
