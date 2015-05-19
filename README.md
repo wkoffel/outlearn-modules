@@ -68,9 +68,13 @@ Once you are signed up, choose "[Import Content](https://demo.outlearn.com/impor
 
 ![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-modules/master/images/import.png)
 
-Click "Add GitHub Integration" and choose "outlearn-modules" as the repository. Write a Nickname such as "My Path" and click "Import Repository."
+Click "Add GitHub Integration" and choose "outlearn-modules" as the repository. Write a Nickname such as "Outlearn Modules" and click "Import Repository."
 
-![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-modules/master/images/import.png)
+![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-modules/master/images/choose-repo.png)
+
+You should now see "Outlearn Modules" under your "GitHub Integrations". Click on the it and then click on the green check under "Import History." You will see the imported paths and modules. Click on the path and you will see your first very own Outlearn path. Congratulations!
+
+![GitHub import](https://raw.githubusercontent.com/outlearn-content/outlearn-modules/master/images/import-history.png)
 
 <!-- @section -->
 
