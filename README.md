@@ -83,7 +83,7 @@ You should now see "Outlearn Modules" under your "GitHub Integrations". Click on
 
 <!-- @section -->
 
-## Add Your Content
+## Hello World
 
 ### Pages and Modules
 
@@ -94,12 +94,15 @@ Now that you've laid out what your path is all about, it's time to get some cont
 
 We wanted to have an authoring experience that integrates seamlessly with GitHub and is easy as well as expressive. We think Markdown hits a great balance between those goals. You can read the [official Markdown Syntax](http://daringfireball.net/projects/markdown/syntax) for more details. Outlearn also supports all the extensions of [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/). If you already have your content in Markdown, importing it to Outlearn is a breeze.
 
-### Hello World
+### Your First Content Edits
 
 By now you are probably itching to get to publish something you actually wrote. Go ahead and edit the file `welcome.md` in the `pages` directory. You can replace everything there with your very own "Hello World" message, or something else that inspires you! The pages are written in markdown so feel free to try out some formatting as well.
 
 Now go back to the [Import Content](https://demo.outlearn.com/import/github) section on Outlearn, click on the nickname and then click "Re-Import". If you still have your path open, refresh your browser and you can see your edits. Or navigate to it same way as above. Houston, we have a lift-off! This is where the official 5-minute path publishing count stops. Hopefully you've seen enough of the power of Outlearn paths to keep on going to put some real content into your path.
 
+<!-- @section -->
+
+## Add Your Content
 
 ### Organize Your Path
 
