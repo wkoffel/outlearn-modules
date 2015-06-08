@@ -3,7 +3,7 @@
 
   "paths" : [
     {
-      "name" : "Will's Personal Outlearn Path",
+      "name" : "wills-personal-path",
       "title" : "Will's Personal Outlearn Path",
       "description" : "Forked from Outlearn's outlearn-modules repository.",
       "privacy" : "public",
