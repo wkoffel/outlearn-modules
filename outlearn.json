@@ -6,6 +6,7 @@
       "name" : "wills-personal-path",
       "title" : "Will's Personal Outlearn Path",
       "description" : "Forked from Outlearn's outlearn-modules repository.",
+      "coverImage" : "http://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Variations_on_a_Waltz_by_Diabelli_-_Theme.svg/2000px-Variations_on_a_Waltz_by_Diabelli_-_Theme.svg.png",
       "privacy" : "public",
       "socialBar": true,
       "pages" : [
