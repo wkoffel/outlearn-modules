@@ -3,9 +3,9 @@
 
   "paths" : [
     {
-      "name" : "my-outlearn-path",
-      "title" : "My First Outlearn Path",
-      "description" : "Fastest Way to Publish a Path",
+      "name" : "Will's Personal Outlearn Path",
+      "title" : "Will's Personal Outlearn Path",
+      "description" : "Forked from Outlearn's outlearn-modules repository.",
       "privacy" : "public",
       "pages" : [
         {"page" : "./pages/welcome.md"},
