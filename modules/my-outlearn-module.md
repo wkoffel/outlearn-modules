@@ -29,6 +29,12 @@ If you want to enrich your content with more features, this sample module has a 
 
 > Block quotes get special styling on Outlearn. They turn into highlight boxes.
 
+```ruby
+def testingSmartQuotes
+  string = “This is a string with smart quotes”
+  return string
+end
+```
 
 <!-- @section -->
 
