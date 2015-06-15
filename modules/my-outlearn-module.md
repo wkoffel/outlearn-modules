@@ -38,6 +38,50 @@ end
 
 <!-- @section -->
 
+# Multiple Choice Test
+
+<!-- @multipleChoice -->
+
+### Operator Precedence
+
+The following code snippet:
+
+```javascript
+`var x = a + b * c + d;`
+ ```
+
+is equivalent to which of the answers below?
+
+- [ ] `var x = (a + b) * (c + d);`
+- [ ] `var x = a + ((b * (c + d));`
+- [X] `var x = (a + (b * c)) + d;`
+- [ ] `var x = ((a + b) * c) + d;`
+- [X] `var x = a + ((b * c) + d);`
+
+Remember, `*` has higher precedence than `+`, so it will bind tighter.
+
+<!-- @end -->
+
+<!-- @multipleChoice -->
+
+Which of these people created Linux?
+
+- [ ] ![](http://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Bill_Gates_July_2014.jpg/220px-Bill_Gates_July_2014.jpg)
+
+  **Bill Gates**
+
+- [X] ![](http://upload.wikimedia.org/wikipedia/commons/thumb/5/52/LinuxCon_Europe_Linus_Torvalds_03.jpg/220px-LinuxCon_Europe_Linus_Torvalds_03.jpg)
+
+  **Linus Torvalds**
+
+- [ ] ![](http://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Guido_van_Rossum_OSCON_2006.jpg/200px-Guido_van_Rossum_OSCON_2006.jpg)
+
+  **Guido van Rossum**
+
+<!-- @end -->
+
+<!-- @section -->
+
 # Images and videos
 
 You can include images using Markdown syntax.
