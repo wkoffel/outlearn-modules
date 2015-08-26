@@ -20,6 +20,12 @@ This is a placeholder Learning Module for you to customize.  Look in the `my-out
 
 <!-- @link, "url" : "http://www.nodejs.org", "text": "Just testing http: protocol" -->
 
+Features Recipe type  | values
+ - | -
+ ca n have dependencies | yes
+ uses type friendly injection | shown at the top of Path cards
+ object available in config phase | shown on the Path card as additional information
+ 
 ### Using Markdown
 
 You may have already used Markdown. It's an awesome format for technical publishing. If you need a refresher, GitHub has a great overview.
