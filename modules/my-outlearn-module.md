@@ -4,7 +4,7 @@
 "version" : "0.1",
 "title" : "My Outlearn Module",
 "description" : "This module will grow to be the best module ever",
-"homepage" : "https://github.com/outlearn-content/outlearn-modules",
+"homepage" : "https://www.test.com",
 "coverImage": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Variations_on_a_Waltz_by_Diabelli_-_Theme.svg/2000px-Variations_on_a_Waltz_by_Diabelli_-_Theme.svg.png",
 "freshnessDate" : 2015-05-18,
 "license" : "CC BY 4.0",
