@@ -18,6 +18,8 @@
 
 This is a placeholder Learning Module for you to customize.  Look in the `my-outlearn-module.md` to see how it is coded up, and then start editing away with your own content.
 
+<!-- @link, "url" : "http://www.nodejs.org", "text": "Just testing http: protocol" -->
+
 ### Using Markdown
 
 You may have already used Markdown. It's an awesome format for technical publishing. If you need a refresher, GitHub has a great overview.
