@@ -12,6 +12,7 @@
       "pages" : [
         {"page" : "./pages/welcome.md"},
         {"module" : "my-outlearn-module"},
+        {"page" : "./pages/empty.md"},
         {"page" : "./pages/closing.md"}
       ]
     }
