@@ -20,13 +20,21 @@ This is a placeholder Learning Module for you to customize.  Look in the `my-out
 
 <!-- @link, "url" : "http://www.nodejs.org", "text": "Just testing http: protocol" -->
 
+<!-- @link, "url" : "http://codepen.io/ericrasch/pen/Irlpm", "text": "Play with this CodePen" -->
+
 Features Recipe type  | values
  - | -
  ca n have dependencies | yes
  uses type friendly injection | shown at the top of Path cards
  object available in config phase | shown on the Path card as additional information
- 
+
+ <p data-height="268" data-theme-id="0" data-slug-hash="Irlpm" data-default-tab="result" data-user="ericrasch" class='codepen'>See the Pen <a href='http://codepen.io/ericrasch/pen/Irlpm/'>CSS line behind title text</a> by Eric Rasch (<a href='http://codepen.io/ericrasch'>@ericrasch</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+ <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
 ### Using Markdown
+
+<iframe height='268' scrolling='no' src='//codepen.io/ericrasch/embed/Irlpm/?height=268&theme-id=0&default-tab=result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/ericrasch/pen/Irlpm/'>CSS line behind title text</a> by Eric Rasch (<a href='http://codepen.io/ericrasch'>@ericrasch</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
 
 You may have already used Markdown. It's an awesome format for technical publishing. If you need a refresher, GitHub has a great overview.
 
