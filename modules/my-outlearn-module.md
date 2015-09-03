@@ -138,3 +138,7 @@ And if they are making something worth sharing, why not let them share it with y
 <!-- @task, "hasDeliverable" : true, "text" : "Write and submit a haiku about your favorite compiler."-->
 
 If you need more details on how to author, please visit the [Outlearn Publishing Guide](https://pilot.outlearn.com/learn/outlearn/outlearn-publishing), where you'll find more examples along with the full specification for the format used by this sample module.
+
+# More tests
+
+<a class="jsbin-embed" href="http://jsbin.com/hobada/2/embed?html,css,js,output">JS Bin on jsbin.com</a><script src="http://static.jsbin.com/js/embed.min.js?3.34.3"></script>
