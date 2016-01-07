@@ -22,7 +22,7 @@ This is a placeholder Learning Module for you to customize.  Look in the `my-out
 
 <!-- @link, "url" : "http://codepen.io/ericrasch/pen/Irlpm", "text": "Play with this CodePen" -->
 
-<!-- @resource, "url" : "http://www.nodejs.org", imageUrl: "" -->
+<!-- @resource, "url" : "http://www.nodejs.org", "imageUrl": "" -->
 
 Features Recipe type  | values
  - | -
