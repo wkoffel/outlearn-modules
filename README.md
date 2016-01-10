@@ -216,7 +216,7 @@ To add a task:
 If you also want to add a deliverable:
 
 ```markdown
-< !-- @task, "hasDeliverable" : true, "text" : "Fork the repository above, fix the broken test, and submit a URL for your pull-request."-->
+< !-- @openResponse, "text" : "Fork the repository above, fix the broken test, and submit a URL for your pull-request."-->
 ```
 
 For an external link that gets unfurled inside the platform:
