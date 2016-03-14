@@ -11,13 +11,16 @@
       "socialBar": true,
       "pages" : [
         {"page" : "./pages/welcome.md"},
-        {"module" : "./modules/my-outlearn-module"},
+        {"module" : "my-outlearn-module"},
         {"page" : "./pages/closing.md"}
       ]
     }
   ],
 
   "modules" : [
+    {
+      "olm" : "./modules/my-outlearn-module.md"
+    }
   ],
 
   "assets" : [
