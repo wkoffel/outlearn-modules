@@ -11,7 +11,7 @@
       "socialBar": true,
       "pages" : [
         {"page" : "./pages/welcome.md"},
-        {"module" : "my-outlearn-module"},
+        {"module" : "./modules/my-outlearn-module"},
         {"page" : "./pages/closing.md"}
       ]
     }
